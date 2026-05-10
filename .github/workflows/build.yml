@@ -20,6 +20,8 @@ jobs:
               run: pnpm m i
             - name: Build plugin(s)
               run: node ./build.mjs
+            - name: Copy dist to plugins
+              run: cp -r dist/messageLogger/* plugins/messageLogger/
             - name: Deploy to GitHub Pages
               uses: peaceiris/actions-gh-pages@v3
               with:
