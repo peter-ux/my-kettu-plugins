@@ -1,0 +1,1 @@
+{"name":"MessageLogger","description":"삭제된 메시지를 로컬에 저장하고, 선택적으로 지정한 채널에도 기록합니다.","authors":[{"name":"me"}],"main":"index.js","hash":"4c089369109123a4f196156269f651812adf39fc732a74f4153f67e84ec8947b"}
